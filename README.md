@@ -1,8 +1,36 @@
+# terminal-notifier
+
+This is a fork of @alloy's terminal-notifier for my project, bitch.
+
+https://rubygems.org/gems/bitch`
+
+terminal-notifier is a middleman app to send Mac OS X User Notifications, which are available in Mac OS X 10.8 and higher.
+
+@alloy's original Ruby command-line interface has been removed in this fork, and farmed out to https://github.com/JacksonGariety/bitch.
+
+## Usage
+
+```
+$ ./bitch.app/Contents/MacOS/terminal-notifier -[message|group|list] [VALUE|ID|ID] [options]
+```
+
+In order to use this fork of terminal-notifier, use the bitch gem like so:
+
+    $ gem install bitch
+
+Then in your Ruby project:
+
+    require 'Bitch'
+
+    Bitch.yell('a problem you finna resolve')
+
+## License
+
 All the works are available under the MIT license. **Except** for
 ‘Terminal.icns’, which is a copy of Apple’s Terminal.app icon and as such is
 copyright of Apple.
 
-Copyright (C) 2012-2013 Eloy Durán <eloy.de.enige@gmail.com>
+Copyright (C) 2012-2013 Jackson Gariety
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
