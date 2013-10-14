@@ -1,28 +1,28 @@
 # terminal-notifier
 
-This is a fork of @alloy's terminal-notifier for my project, bitch.
+This is a fork of @alloy's terminal-notifier for my project, kvetch.
 
-https://rubygems.org/gems/bitch`
+https://rubygems.org/gems/kvetch`
 
 terminal-notifier is a middleman app to send Mac OS X User Notifications, which are available in Mac OS X 10.8 and higher.
 
-@alloy's original Ruby command-line interface has been removed in this fork, and farmed out to https://github.com/JacksonGariety/bitch.
+@alloy's original Ruby command-line interface has been removed in this fork, and farmed out to https://github.com/JacksonGariety/kvetch.
 
 ## Usage
 
 ```
-$ ./bitch.app/Contents/MacOS/terminal-notifier -[message|group|list] [VALUE|ID|ID] [options]
+$ ./kvetch.app/Contents/MacOS/terminal-notifier -[message|group|list] [VALUE|ID|ID] [options]
 ```
 
-In order to use this fork of terminal-notifier, use the bitch gem like so:
+In order to use this fork of terminal-notifier, use the kvetch gem like so:
 
-    $ gem install bitch
+    $ gem install kvetch
 
 Then in your Ruby project:
 
-    require 'Bitch'
+    require 'Kvetch'
 
-    Bitch.yell('a problem you finna resolve')
+    Kvetch.yell('a problem you finna resolve')
 
 ## License
 
